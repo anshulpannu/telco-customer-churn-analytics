@@ -1,0 +1,62 @@
+================================
+Telco Customer Churn Analytics
+================================
+VS Code
+
+.vscode/
+*.code-workspace
+
+Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+Temporary / backup files
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.log
+
+Python cache files
+
+pycache/
+*.py[cod]
+
+Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+Local database files
+
+*.db
+*.sqlite
+*.sqlite3
+
+SQL Server local files
+
+*.mdf
+*.ndf
+*.ldf
+
+Temporary exports
+
+*.temp.csv
+*.tmp.csv
+
+Personal / local configuration
+
+.env
+.env.*
+!.env.example
+
+Power BI temporary/backup files
+
+*.pbit
+
+Build / generated files
+
+dist/
+build/
