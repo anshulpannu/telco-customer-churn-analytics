@@ -1,0 +1,23 @@
+# SQL JOIN Analysis
+
+## Activity 1: Electronic Check Churn by Contract
+
+**Business Question:**
+Within each contract type, is churn higher among electronic-check customers compared with the overall contract churn rate?
+
+An `INNER JOIN` was used to combine contract-level churn rates with churn rates for each payment method within the same contract type.
+
+**Key Finding:** Electronic-check customers had higher churn across all contract types, with the largest difference among month-to-month customers (+11.02 percentage points).
+
+---
+
+## Activity 2: Churned vs. Retained Monthly Charges
+
+**Business Question:**
+How do monthly charges differ between churned and retained customers within each contract type?
+
+A `LEFT JOIN` was used to combine separate summaries of churned and retained customers by contract type, allowing their average monthly charges to be compared.
+
+**Key Finding:** Churned customers had higher average monthly charges across all contract types. The largest difference occurred among two-year customers, where churned customers paid an average of $26.77 more per month.
+
+These findings show an association between monthly charges and churn, but do not establish that higher charges cause customers to churn.
