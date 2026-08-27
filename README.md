@@ -70,11 +70,11 @@ The current report includes two pages:
 
 ### Executive Overview
 
-![Executive Overview](screenshots/executive_overview.png)
+![Executive Overview](screenshots/Executive_Summary.png)
 
 ### Churn Analysis
 
-![Churn Analysis](screenshots/churn_analysis.png)
+![Churn Analysis](screenshots/Churn_Analysis.png)
 
 
 ## Project Structure
